@@ -1,0 +1,39 @@
+.wrapper {
+	padding: 20px 10px;
+	width: 400px;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	background-color: bisque;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.bal {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.input {
+	font-size: 24px;
+	padding: 30px;
+	margin-bottom: 20px;
+}
+
+.btn-ball {
+	padding: 20px 30px;
+	background-color: black;
+	border: none;
+	border-radius: 10px;
+	color: #fff;
+	cursor: pointer;
+
+	transition: background-color 250ms linear;
+}
+
+.btn-ball:hover,
+.btn-ball:focus {
+	background-color: rgb(95, 78, 78);
+}
